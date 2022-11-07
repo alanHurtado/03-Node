@@ -1,9 +1,26 @@
 {
-  "name": "sockets",
+  "name": "03-node",
   "version": "1.0.0",
-  "description": "Herramientas con sockets y chat boot",
+  "description": "",
   "main": "index.js",
-  "repository": "https://github.com/alanHurtado/03-Node.git",
-  "author": "Alan Astroga Hurtado <alanasto10@gmail.com>",
-  "license": "MIT"
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/alanHurtado/03-Node.git",
+  "keywords": [],
+  "author": "Alan Astorga Hurtado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanHurtado/03-Node/issues"
+  },
+  "homepage": "https://github.com/alanHurtado/03-Node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dot": "^1.1.3",
+    "dotenv": "^16.0.3",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.3"
+  }
 }

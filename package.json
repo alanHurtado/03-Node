@@ -1,0 +1,9 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "Herramientas con sockets y chat boot",
+  "main": "index.js",
+  "repository": "https://github.com/alanHurtado/03-Node.git",
+  "author": "Alan Astroga Hurtado <alanasto10@gmail.com>",
+  "license": "MIT"
+}
